@@ -18,13 +18,13 @@ export default function Aboutus(){
 
             </div>
             <h2 className="mt-20 title-color font-serif flex items-center -translate-y-20 max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            <div className='overflow-hidden'>
+            <div className='overflow-hidden block md:flex'>
               <Image
                 src="/logo/fortitle/2.png"
                 alt="logo"
                 width={150}
                 height={150}
-                className="mx-2" 
+                className="mx-2 hidden md:block" 
                 />
                 <div className='title-anime whitespace-pre-line leading-10 m-4	w-full whitespace-nowrap text-4xl'>{'Welcome to \n The best weed shop '}</div>
               </div>
@@ -74,7 +74,7 @@ export default function Aboutus(){
         <div className='rounded-xl'>
         <video
         type="video/mp4"
-        className="rounded-xl ml- videoanim h-max	w-full sm:hidde md:block md:hidde anim hidde relativ rouded-2xl"
+        className="rounded-xl ml- videoanime w-full sm:hidde md:block md:hidde anim hidde relativ rouded-2xl"
         src={`/video/about.mp4`}
         muted
         autoPlay

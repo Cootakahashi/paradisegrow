@@ -3,7 +3,7 @@ export function Merit(){
         <>
         <div className="grid merit">
             <div className="m-5 p-5 overflow-hidden">
-                <h2 className="translate-y-80 title-anime text-center text-3xl font-serif	py-10">Empowering you with herbal knowledge and know-how</h2>
+                <h2 className="translate-y-80 title-anime text-center text-3xl font-serif	py-10">Empowering you with Cannabis</h2>
                 <h3 className="text-center text-xl font-sans italic">You going to be find new you</h3>
             </div>
             <div className="p-20 grid gap-4  md:grid-cols-4 grid-cols-2 -translate-y-20 md:translate-y-0">
