@@ -8,7 +8,7 @@ export default function Aboutus(){
             <div className='rounded-3xl -translate-y-20 bg'>
               <video
               type="video/mp4"
-              className="rounded-3xl ml-10 videoanim h-max	w-full sm:block md:hidden md:hidde anim hidde relativ rouded-2xl "
+              className="rounded-3xl videoanim w-full sm:block md:hidden rouded-2xl "
               src={`/video/welcome.mp4`}
               muted
               autoPlay
