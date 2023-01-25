@@ -108,6 +108,13 @@ a {
     color-scheme: dark;
   }
 } */
+body{
+  padding: 0;
+  margin: 0;
+}
+.layouts {
+  background-color: rgb(81, 31, 31);
+}
 
 .nav-item {
   transition: 1s ;

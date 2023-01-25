@@ -48,7 +48,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo/transparent/1.png" />
       </Head>
-      <div className="bg-gray-100">
+      <div className="bg-gray-100 w-full overflow-hidden">
 
 
         <Nav></Nav>
