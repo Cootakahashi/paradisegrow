@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function Aboutus(){
   return (
-    <div className="bg-gray-200 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
+    <div className="bg-gray-1 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
@@ -17,16 +17,16 @@ export default function Aboutus(){
             <div className='w-full h-full bg-green-200 opacit translate-y-20 relative'></div>
 
             </div>
-            <h2 className="title-color font-serif flex items-center -translate-y-20 max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-            <div className='overflow-hidden -40'>
+            <h2 className="mt-20 title-color font-serif flex items-center -translate-y-20 max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+            <div className='overflow-hidden'>
               <Image
                 src="/logo/fortitle/2.png"
                 alt="logo"
                 width={150}
                 height={150}
                 className="mx-2" 
-                /></div>
-                <div className='title-anim whitespace-pre-line leading-10 m-4	w-full whitespace-nowrap text-4xl'>{'Welcome to \n The best weed shop '}
+                />
+                <div className='title-anime whitespace-pre-line leading-10 m-4	w-full whitespace-nowrap text-4xl'>{'Welcome to \n The best weed shop '}</div>
               </div>
               <br className="hidden md:block" />
               {' '}
@@ -37,15 +37,17 @@ export default function Aboutus(){
                 </span>
               </span>
             </h2>
+            <div className='-translate-y-20 md:translate-0'>
             <p className="text-base text-gray-700 md:text-lg">
             Cannabis can be found in various forms, and the health benefits of cannabis is ever growing, here Tara Leo of CaliExtractions gives us an insight regarding the diverse benefits of the plant.</p>
             <p className="text-base text-gray-700 md:text-lg">
             Alcoholism and drug addiction:
-Another comprehensive review of evidence, published last year in the journal Clinical Psychology Review, revealed that using cannabis may help people with alcohol or opioid dependencies to fight their addictions.</p>
+            Another comprehensive review of evidence, published last year in the journal Clinical Psychology Review, revealed that using cannabis may help people with alcohol or opioid dependencies to fight their addictions.</p>
+            </div>
           </div>
 
 
-          <div className="grid gap-5 row-gap-8 sm:grid-cols-2 mt-20">
+          <div className="grid gap-5 row-gap-8 hidden md:grid grid-cols-2 mt-20">
             <div className="bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5">
@@ -72,7 +74,7 @@ Another comprehensive review of evidence, published last year in the journal Cli
         <div className='rounded-xl'>
         <video
         type="video/mp4"
-        className="rounded-xl ml-10 videoanim h-max	w-full sm:hidde md:block md:hidde anim hidde relativ rouded-2xl"
+        className="rounded-xl ml- videoanim h-max	w-full sm:hidde md:block md:hidde anim hidde relativ rouded-2xl"
         src={`/video/about.mp4`}
         muted
         autoPlay

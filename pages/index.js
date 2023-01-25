@@ -48,17 +48,17 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo/transparent/1.png" />
       </Head>
+      <div className="bg-gray-100">
+
 
         <Nav></Nav>
         <Top arg="2"></Top>
-
-        <div className="bg-green-">
 
           <div className="h-40"></div>
           <Aboutus></Aboutus>
           <Merit></Merit>
 
-          <Feature></Feature>x
+          <Feature></Feature>
           <Items></Items>
           <Event></Event>
           <Contact></Contact>
