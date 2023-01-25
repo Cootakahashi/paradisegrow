@@ -3,7 +3,7 @@ export default function Event(){
         <section className="text-gray-600 body-font">
             <h1 className="text-center text-bold text-3xl py-20">Event Infomation</h1>
   <div className="container px-5 py-24 mx-auto ">
-    <div className="flex flex-wrap -m-4 grid grid-cols-2">
+    <div className="flex flex-wrap -m-4 grid md:grid-cols-2">
       <div className="p-4 lg:w-full">
         <div className="h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
           <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">January 31, 2023</h2>

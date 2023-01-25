@@ -52,13 +52,13 @@ export default function Home() {
         <Nav></Nav>
         <Top arg="2"></Top>
 
-<div className="bg-green-">
+        <div className="bg-green-">
 
           <div className="h-40"></div>
           <Aboutus></Aboutus>
           <Merit></Merit>
 
-          <Feature></Feature>
+          <Feature></Feature>x
           <Items></Items>
           <Event></Event>
           <Contact></Contact>

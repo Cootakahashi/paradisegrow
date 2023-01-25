@@ -154,3 +154,10 @@ background-blend-mode:lighten;
   from {background-position: left}
   to {background-position: right}
 }
+
+/* .bg {
+  width: 100%;
+  background-color: rgb(78, 75, 75);
+  height: 100%;
+
+} */
