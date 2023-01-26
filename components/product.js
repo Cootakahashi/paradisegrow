@@ -28,7 +28,9 @@ export default function Product(){
 
           </p>
         </div>
-        <div className="grid gap-8 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
+        <div className="grid grid-cols-1 gap-10 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
+          <div className='col-span-full'>
+            <h2 id="product" className='text-righ text-4xl'>Sativa</h2></div>
           <div>
             <Image
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
@@ -76,6 +78,9 @@ export default function Product(){
               Sed ut perspiciatis unde omnis iste natus error sit voluptatem
               accusantium.
             </p>
+          </div>
+          <div className='col-span-full'>
+          <h2 className='text-left text-4xl col-span-full'>Indica</h2>
           </div>
           <div>
             <Image
@@ -125,7 +130,63 @@ export default function Product(){
               accusantium.
             </p>
           </div>
+          <div className='col-span-full'>
+          <h2 className='text-center text-4xl'>Hibrid</h2>
+
+          </div>
+          <div>
+            <Image
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              src="/canva/products/6.png"
+              alt="doya"
+              width={200}
+              height={200}
+            />
+            <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
+              Leverage agile
+            </p>
+            <p className="text-gray-700">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+          </div>
+          <div>
+            <Image
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              src="/canva/products/7.png"
+              alt="ok"
+              width={200}
+              height={200}
+            />
+            <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
+              Organically grow
+            </p>
+            <p className="text-gray-700">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+          </div>
+          <div>
+            <Image
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              src="/canva/products/7.png"
+              alt="ok"
+              width={200}
+              height={200}
+            />
+            <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
+              Organically grow
+            </p>
+            <p className="text-gray-700">
+              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+              accusantium.
+            </p>
+          </div>
         </div>
+
+
+        
+        
         <div className="text-center">
           <a
             href="/"

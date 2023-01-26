@@ -1,3 +1,4 @@
+import Link from 'next/link'
 export function Merit(){
     return(
         <>
@@ -11,33 +12,39 @@ export function Merit(){
                     <li className="">ENERGY</li>
                 </ul>
                 <ul className="border text-center h-20 grid content-center border-gray-500">
-                    <li>ANSIETY</li>
+                    <Link href="#product"><li>ANSIETY</li></Link>
                 </ul>
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
-                    <li>SLEEP</li>
+                    <Link href="#product"><li>SLEEP</li></Link>
                 </ul>
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
                     <li>AROUSAL</li>
+                    <Link href="#product"></Link>
                 </ul>
 
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
-                    <li>DEPRESSION</li>
+                    <Link href="#product"> <li>DEPRESSION</li></Link>
                 </ul>
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
-                    <li>DIGESTION</li>
+                    
+                    <Link href="#product"><li>DIGESTION</li></Link>
+
                 </ul>
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
-                    <li>BRAIN</li>
+                    
+                    <Link href="#product"><li>BRAIN</li></Link>
+
                 </ul>
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
-                    <li>MOOD</li>
+                    
+                    <Link href="#product"><li>MOOD</li></Link>
+
                 </ul>
 
             </div>
             <div className="text-center mb-20 ">
                 <span className="border- px-4">Mental health</span>
                 <span className="border- px-4">Physical health</span>
-
             </div>
 
           

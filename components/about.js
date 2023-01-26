@@ -1,14 +1,14 @@
 import Image from 'next/image'
 export default function Aboutus(){
   return (
-    <div className="bg-gray-1 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
+    <div className="bg-gray-1 mb-20 md:mb-40 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
-            <div className='rounded-3xl -translate-y-20 bg'>
+            <div className='rounded-3xl -translate-y-20 bg '>
               <video
               type="video/mp4"
-              className="rounded-3xl videoanim w-full sm:block md:hidden rouded-2xl "
+              className="rounded-3xl videoanim w-full sm:block md:hidden rouded-2xl translate-x-20 title-anime ml-11"
               src={`/video/welcome.mp4`}
               muted
               autoPlay
@@ -74,7 +74,7 @@ export default function Aboutus(){
         <div className='rounded-xl'>
         <video
         type="video/mp4"
-        className="rounded-xl ml- videoanime w-full sm:hidde md:block md:hidde anim hidde relativ rouded-2xl"
+        className="rounded-xl mr-20 videoanime w-full sm:hidde md:block md:hidde anim hidde relativ rouded-2xl"
         src={`/video/about.mp4`}
         muted
         autoPlay
