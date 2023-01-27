@@ -30,7 +30,7 @@ export default function Product(){
         </div>
         <div className="grid grid-cols-1 gap-10 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
           <div className='col-span-full'>
-            <h2 id="product" className='text-righ text-4xl'>Sativa</h2></div>
+            <h2 id="product" className='text-right pr-20 text-4xl'>Sativa</h2></div>
           <div>
             <Image
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
@@ -40,11 +40,14 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Galaxies Orion
+            Skunk 1
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Genetics Multiple Skunk Crosses (Afghani, Acapulco, Colombian)
+            THC % THC 17% BALANCED
+            Flavour/Aroma Earthy aromas and sour flavours
+            Effects Energetic and Appetite increasing
+            Medical Usage Stress and Anxiety reduction
             </p>
           </div>
           <div>
@@ -56,11 +59,15 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Tunguska event
+            OG Kush
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Hybrid
+Lemon Thai X Hindu Kush
+THC 18% BALANCED
+Spicy, skunky
+Relaxation
+Stress Reduction
             </p>
           </div>
           <div>
@@ -72,11 +79,15 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Yolo ipsum dolor
+            Banana Blaze
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Indica Dominant Hybrid
+Dutch Passion genetics Old School Banana X Afghani Kush
+THC 15% LOW
+Sweet Fruit aromas and taste
+Body relaxation
+Switching off the mind
             </p>
           </div>
           <div className='col-span-full'>
@@ -91,11 +102,15 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Curabitur mattis
+            Amnesia Haze
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Sativa
+South Asian Landrace X Jamaican Landrace
+THC 19% HEAVY
+Earthy aromas and lemon flavours
+Uplifting and energetic buzz
+Helps with stress relief and motivation
             </p>
           </div>
           <div>
@@ -107,11 +122,14 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Leverage agile
+            Gorilla Glu
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Hybrid
+Chem’s Sister X Chocolate Diesel
+THC 20% POTENT
+Earthy, sour aromas
+Helps with stress and pain alleviation
             </p>
           </div>
           <div>
@@ -123,11 +141,15 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Organically grow
+            Gelato
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Hybrid
+Sunset Sherbert X Thin Mint Girl Scout Cookies
+THC 17% BALANCED
+Sweet aroma and a fruity flavour
+Euphoria, relaxation
+Relief of pain, fatigue and Insomnia
             </p>
           </div>
           <div className='col-span-full'>
@@ -143,11 +165,15 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Leverage agile
+            White Widow
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Hybrid
+Brazilian Sativa Landrace X Indian Indica
+THC 15% LOW
+Woody aromas and an earthy flavour
+Energetic
+Motivates and powers creativity
             </p>
           </div>
           <div>
@@ -159,11 +185,15 @@ export default function Product(){
               height={200}
             />
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
-              Organically grow
+            Critical White
             </p>
             <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            Hybrid
+White Widow X Critical Mass
+THC 21% HEAVY
+Sweet and woody
+Uplifting, Euphoric
+Relaxation and motivating
             </p>
           </div>
           <div>

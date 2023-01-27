@@ -38,11 +38,19 @@ export default function Aboutus(){
               </span>
             </h2>
             <div className='-translate-y-20 md:translate-0'>
-            <p className="text-base text-gray-700 md:text-lg">
-            Cannabis can be found in various forms, and the health benefits of cannabis is ever growing, here Tara Leo of CaliExtractions gives us an insight regarding the diverse benefits of the plant.</p>
-            <p className="text-base text-gray-700 md:text-lg">
-            Alcoholism and drug addiction:
-            Another comprehensive review of evidence, published last year in the journal Clinical Psychology Review, revealed that using cannabis may help people with alcohol or opioid dependencies to fight their addictions.</p>
+            <p className="text-base text-gray-700 md:text-lg whitespace-pre-lin pl-10">
+              
+            {`Paradise Grows is about bringing the highest quality of medicinal cannabis, grow products and a range of healthful products to the shores of Phuket and to the rest of the world Our master grower, Matt, has been perfecting techniques that allow the plants to express their
+              richest flowers. We believe that the health of the plant is priority and that it is necessary to provide
+              the right elements through the development of the grow
+              Matt attributes his success to his passion for the process and his love of the plants. He has a
+              pragmatic approach to the bulk of the work which allows him to truly explore his creative side with
+              the plants, especially with his unique training techniques and fluid flowering protocols
+              In a world moving towards efficiency and profitability we bring you a product which is patiently
+              produced
+              Looking forward to our future, we aim to become a standard in the medicinal cannabis and health
+              industry worldwide`}
+            </p>
             </div>
           </div>
 
