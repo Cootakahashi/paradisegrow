@@ -56,7 +56,7 @@ export default function Home() {
 
           <div className="h-40"></div>
           <Aboutus></Aboutus>
-          <Merit></Merit>
+          {/* <Merit></Merit> */}
 
           <Feature></Feature>
           <Items></Items>

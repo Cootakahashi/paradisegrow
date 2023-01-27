@@ -168,3 +168,16 @@ background-blend-mode:lighten;
   height: 100%;
 
 } */
+
+.text-c {
+  /* display: inline-block;
+  background: linear-gradient(90deg, #a38131 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
+  background: -webkit-linear-gradient(0deg, #a38131 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+.title-size {
+  font-size: 45px;
+
+}

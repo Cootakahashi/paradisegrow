@@ -30,7 +30,7 @@ export default function Product(){
         </div>
         <div className="grid grid-cols-1 gap-10 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
           <div className='col-span-full'>
-            <h2 id="product" className='text-right pr-20 text-4xl'>Sativa</h2></div>
+            <h2 id="product" className='text-center pr-20 text-4xl pt-40 text-c'>SATIVA</h2></div>
           <div>
             <Image
               className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
@@ -91,7 +91,7 @@ Switching off the mind
             </p>
           </div>
           <div className='col-span-full'>
-          <h2 className='text-left text-4xl col-span-full'>Indica</h2>
+          <h2 className='text-center text-4xl col-span-full text-c'>INDICA</h2>
           </div>
           <div>
             <Image
@@ -153,7 +153,7 @@ Relief of pain, fatigue and Insomnia
             </p>
           </div>
           <div className='col-span-full'>
-          <h2 className='text-center text-4xl'>Hibrid</h2>
+          <h2 className='text-center text-4xl text-c'>HIBRID</h2>
 
           </div>
           <div>

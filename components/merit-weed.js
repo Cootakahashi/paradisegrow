@@ -9,7 +9,9 @@ export function Merit(){
             </div>
             <div className="p-20 grid gap-4  md:grid-cols-4 grid-cols-2 -translate-y-20 md:translate-y-0">
                 <ul className="border text-center h-20 grid content-center border-gray-500">
-                    <li className="">ENERGY</li>
+                    
+                    <Link href="#product"><li className="">ENERGY</li></Link>
+
                 </ul>
                 <ul className="border text-center h-20 grid content-center border-gray-500">
                     <Link href="#product"><li>ANSIETY</li></Link>
@@ -18,8 +20,8 @@ export function Merit(){
                     <Link href="#product"><li>SLEEP</li></Link>
                 </ul>
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
-                    <li>AROUSAL</li>
-                    <Link href="#product"></Link>
+                    
+                    <Link href="#product"><li>AROUSAL</li></Link>
                 </ul>
 
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500">
