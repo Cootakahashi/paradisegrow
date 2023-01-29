@@ -189,11 +189,11 @@ Motivates and powers creativity`}
             Critical White
             </p>
             <p className="text-gray-700 whitespace-pre-line">{`Hybrid
-      White Widow X Critical Mass
-      THC 21% HEAVY
-      Sweet and woody
-      Uplifting, Euphoric
-      Relaxation and motivating`}
+          White Widow X Critical Mass
+          THC 21% HEAVY
+          Sweet and woody
+          Uplifting, Euphoric
+          Relaxation and motivating`}
             
             </p>
           </div>
