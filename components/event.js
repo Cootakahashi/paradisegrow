@@ -1,12 +1,12 @@
 export default function Event(){
     return (
-        <section className="text-gray-600 body-font">
-          <div className="overflow-hidden">
+        <section id="events" className="text-gray-600 body-font">
+          <div className="overflow-hidden text-center">
             <h1 className="text-center text-bold text-3xl py-20 title-anime p-3">Event Infomation</h1>
             </div>
   <div className="container px-5 py-24 mx-auto ">
     <div className="flex flex-wrap -m-4 grid md:grid-cols-2">
-      <div className="p-4 lg:w-full">
+      <div className="p-4 lg:w-full op-anime">
         <div className="border h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
           <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">January 31, 2023</h2>
           <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Meet up in Paradise Grows</h1>
@@ -32,7 +32,7 @@ export default function Event(){
           </div>
         </div>
       </div>
-      <div className="p-4 lg:w-full">
+      <div className="p-4 lg:w-full op-anime">
         <div className="border h-full bg-gray-100 bg-opacity-75 px-8 pt-16 pb-24 rounded-lg overflow-hidden text-center relative">
           <h2 className="tracking-widest text-xs title-font font-medium text-gray-400 mb-1">February 15, 2023</h2>
           <h1 className="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3">Determination of the strongest Kannabis</h1>

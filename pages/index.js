@@ -13,6 +13,8 @@ import {Footer} from '../components/footer'
 import {Merit} from '../components/merit-weed'
 import {useCallback} from 'react'
 import { useRef, useEffect, useState } from 'react'
+import { NavRes } from '../components/navRes'
+
 
 // const inter = Inter({ subsets: ['latin'] })
 
@@ -24,13 +26,13 @@ export default function Home() {
 
     for (let texti of textElem) {
       const textDistance = texti.getBoundingClientRect().top
-      if (window.innerHeight > textDistance *1.3) {
+      if (window.innerHeight > textDistance * 1.2) {
         texti.classList.add('text-show')
       }
     }
     for (let opi of opElem) {
       const opDistance = opi.getBoundingClientRect().top
-      if (window.innerHeight > opDistance) {
+      if (window.innerHeight > opDistance *1.3) {
         opi.classList.add('op-show')
       }
     }
@@ -39,6 +41,10 @@ export default function Home() {
     window.addEventListener('scroll', onScroll, { passive: true })
     
 })
+
+
+
+
   return (
     <>
       <Head>
@@ -48,16 +54,24 @@ export default function Home() {
         <link rel="icon" href="/logo/transparent/1.png" />
       </Head>
       <div className="all-bg w-full overflow-hidden">
-
+        <div className='hidde navre transitio'>
+          {/* <div></div> */}
+        <NavRes></NavRes>
+        </div>
 
         <Nav></Nav>
         <Top arg="2"></Top>
 
+
+
           <div className="h-40"></div>
           <Aboutus></Aboutus>
+          <div className='mt-40 md:mt-0'>
           <Merit></Merit>
-
+          </div>
           <Feature></Feature>
+          
+
           <Items></Items>
           <Event></Event>
           <Contact></Contact>

@@ -175,11 +175,11 @@ background-blend-mode:lighten;
 } */
 
 .text-c {
-  /* display: inline-block;
+  /* display: inline-block; */
   background: linear-gradient(90deg, #a38131 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
   background: -webkit-linear-gradient(0deg, #a38131 0%, #e7c76d 33%, #ffe6c5 62%, #e3c05d 83%, #9d874e 100%);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
+  -webkit-text-fill-color: transparent;
 }
 
 .title-size {
@@ -189,4 +189,19 @@ background-blend-mode:lighten;
 
 .all-bg{
   background-color: rgb(243, 251, 252);
+}
+
+.navres {
+  transform:translateX(-100%);
+  transition: .5s;
+}
+.navres.show {
+  transform:none; 
+}
+.op-anime {
+  opacity: 0;
+  transition: 1s;
+}
+.op-anime.op-show {
+  opacity: 1;
 }

@@ -1,7 +1,7 @@
 import Image from 'next/image'
 export default function Aboutus(){
   return (
-    <div className="bg-gray-1 mb- md:mb-40 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
+    <div id="aboutus" className="bg-gray-1 mb- md:mb-40 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
@@ -32,7 +32,7 @@ export default function Aboutus(){
               </span>
             </h2>
             <div className='-translate-y-20 md:translate-x- md:translate-0'>
-            <p className="text-base text-gray-700 md:text-lg whitespace-pre-line -translate-x-">
+            <p className="text-base text-gray-700 md:text-lg whitespace-pre-line -translate-x- opacity- op-anime">
               
             {`Paradise Grows is about bringing the highest quality of medicinal cannabis, grow products and a
             range of healthful products to the shores of Phuket and to the rest of the world \n
@@ -51,7 +51,7 @@ export default function Aboutus(){
           </div>
 
 
-          <div className="grid gap-5 row-gap-8 hidden md:grid grid-cols-2 mt-20">
+          <div className="grid gap-5 row-gap-8 hidden md:grid grid-cols-2 mt-20 op-anime">
             <div className="bg-white border-l-4 shadow-sm border-deep-purple-accent-400">
               <div className="h-full p-5 border border-l-0 rounded-r">
                 <h6 className="mb-2 font-semibold leading-5">

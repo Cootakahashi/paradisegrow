@@ -11,7 +11,7 @@ export default function Product(){
             <a href="/" aria-label="Item" className="mr-3">
               <div className="flex items-center justify-center w-16 h-16 rounded-full bg-indigo-50">
               <Image
-              className="object-cover mb-6 rounded shadow-lg md:h-12 xl:h-12 w-32 h-32"
+              className="object-cover mb-6 rounded shadow-lg md:h-12 xl:h-12 w-32 h-32 op-anime"
               src="/canva/leaf.svg"
               alt="later"
               width={50}
@@ -30,10 +30,10 @@ export default function Product(){
         </div>
         <div className="grid grid-cols-1 gap-10 row-gap-5 mb-8 lg:grid-cols-3 lg:row-gap-8">
           <div className='col-span-full'>
-            <h2 className='text-center font-sans font-light text-4xl text-c'>SATIVA</h2></div>
+            <h2 className='text-center font-sans font-normal text-4xl text-c op-anime'>SATIVA</h2></div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/2.png"
               alt="later"
               width={200}
@@ -52,7 +52,7 @@ export default function Product(){
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/3.png"
               alt="write"
               width={200}
@@ -61,18 +61,18 @@ export default function Product(){
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             OG Kush
             </p>
-            <p className="text-gray-700">
+            <p className="text-gray-700 ">
             Hybrid
-Lemon Thai X Hindu Kush
-THC 18% BALANCED
-Spicy, skunky
-Relaxation
-Stress Reduction
+            Lemon Thai X Hindu Kush
+            THC 18% BALANCED
+            Spicy, skunky
+            Relaxation
+            Stress Reduction
             </p>
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/4.png"
               alt="ok"
               width={200}
@@ -83,19 +83,19 @@ Stress Reduction
             </p>
             <p className="text-gray-700">
             Indica Dominant Hybrid
-Dutch Passion genetics Old School Banana X Afghani Kush
-THC 15% LOW
-Sweet Fruit aromas and taste
-Body relaxation
-Switching off the mind
+            Dutch Passion genetics Old School Banana X Afghani Kush
+            THC 15% LOW
+            Sweet Fruit aromas and taste
+            Body relaxation
+            Switching off the mind
             </p>
           </div>
           <div className='col-span-full'>
-          <h2 className='text-center text-4xl col-span-full font-sans font-light text-c'>INDICA</h2>
+          <h2 className='text-center text-4xl col-span-full font-sans font-normal text-c op-anime'>INDICA</h2>
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/5.png"
               alt="next"
               width={200}
@@ -115,7 +115,7 @@ Helps with stress relief and motivation
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/6.png"
               alt="doya"
               width={200}
@@ -134,7 +134,7 @@ Helps with stress and pain alleviation
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/7.png"
               alt="ok"
               width={200}
@@ -153,12 +153,12 @@ Relief of pain, fatigue and Insomnia
             </p>
           </div>
           <div className='col-span-full'>
-          <h2 className='text-center text-4xl font-sans font-normal		 text-c'>HIBRID</h2>
+          <h2 className='text-center text-4xl font-sans font-normal text-c op-anime'>HIBRID</h2>
 
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/6.png"
               alt="doya"
               width={200}
@@ -178,7 +178,7 @@ Motivates and powers creativity
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/7.png"
               alt="ok"
               width={200}
@@ -198,7 +198,7 @@ Relaxation and motivating
           </div>
           <div>
             <Image
-              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80"
+              className="object-cover w-full h-56 mb-6 rounded shadow-lg md:h-64 xl:h-80 op-anime"
               src="/canva/products/7.png"
               alt="ok"
               width={200}

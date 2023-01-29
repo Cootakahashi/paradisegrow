@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Feature(){
     return(
-<section className="text-gray-600 body-font ">
+<section id="science"className="text-gray-600 body-font ">
   <div className="container px-5 p24 mx-auto">
     <div className="text-center mb-20 overflow-hidden">
       <div className='overflow-hidden mt-20'>
@@ -13,7 +13,7 @@ export default function Feature(){
         <div className="w-16 h-1 rounded-full bg-indigo-500 inline-flex"></div>
       </div>
     </div>
-    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6">
+    <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 md:space-y-0 space-y-6 op-anime">
       <div className="p-4 md:w-1/3 flex flex-col text-center items-center md:translate-y-64 mb-20">
         <div className="w-64 h-64 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
         <Image
@@ -31,7 +31,7 @@ export default function Feature(){
       </div>
 
 
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center md:translate-y-32">
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center md:translate-y-32 op-anime">
         <div className="w-64 h-64 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
         <Image
             className="object-cover w-full h-full rounded  sm:h-full ml-20 mt-2"
@@ -48,7 +48,7 @@ export default function Feature(){
       </div>
 
 
-      <div className="p-4 md:w-1/3 flex flex-col text-center items-center">
+      <div className="p-4 md:w-1/3 flex flex-col text-center items-center op-anime">
         <div className="w-64 h-64 inline-flex items-center justify-center rounded-full bg-indigo-100 text-indigo-500 mb-5 flex-shrink-0">
         <Image
             className="object-cover w-full h-full rounded  sm:h-full ml-20 mt-2"
