@@ -1,7 +1,9 @@
 export default function Event(){
     return (
         <section className="text-gray-600 body-font">
-            <h1 className="text-center text-bold text-3xl py-20">Event Infomation</h1>
+          <div className="overflow-hidden">
+            <h1 className="text-center text-bold text-3xl py-20 title-anime p-3">Event Infomation</h1>
+            </div>
   <div className="container px-5 py-24 mx-auto ">
     <div className="flex flex-wrap -m-4 grid md:grid-cols-2">
       <div className="p-4 lg:w-full">

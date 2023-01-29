@@ -3,9 +3,9 @@ export function Merit(){
     return(
         <>
         <div className="grid merit">
-            <div className="m-5 p-5 overflow-hidden">
-                <h2 className="translate-y-80 title-anime text-center text-3xl font-serif	py-10">Empowering you with Cannabis</h2>
-                <h3 className="text-center text-xl font-sans italic">You going to be find new you</h3>
+            <div className="m-5 p-5 overflow-hidden col-span-full">
+                <h2 className="translate-y- title-anime text-center text-3xl font-serif	py-10">Empowering you with Cannabis</h2>
+                <h3 className="sm:text-center md:text-none text-xl font-sans italic">You going to be find new you</h3>
             </div>
             <div className="p-20 grid gap-4  md:grid-cols-4 grid-cols-2 -translate-y-20 md:translate-y-0">
                 <ul className="border text-center h-20 grid content-center border-gray-500">

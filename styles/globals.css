@@ -131,36 +131,41 @@ body{
 
 
 .merit {
-  background-image: url(/canva/bg2.png);
+  background-image: url(/canva/bg3.png);
   background-color:rgba(255,255,255,0.6);
 background-blend-mode:lighten;
 }
+@keyframes gradientEffect {
+  from {background-position: left}
+  to {background-position: right}
+}
 
 .title-color {
-  /* display: inline-block; */
+
+}
+
+.title-anime {
+  transition: .3s;
+  display: inline-block;
   background: linear-gradient(45deg, #5ee991 16%, #2BD2FF 57%, #2BFF88 90%);
   background: -webkit-linear-gradient(45deg, #9ce73b 16%, #1ea873 57%, #2BFF88 90%);
   background-size: 300% auto;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  animation: gradientEffect 2.5s infinite alternate;
+  animation: gradientEffect 4.5s infinite;
   font-weight: 800;
   font-family:  '',serif;
-}
+  transform: translateY(150%);
+  font-size: 40px;
 
-.title-anime {
-  transition: .3s;
 
 }
 .title-anime.text-show{
-  transition:1s;
+  transition: .5s;
   transform: none;
 }
 
-@keyframes gradientEffect {
-  from {background-position: left}
-  to {background-position: right}
-}
+
 
 /* .bg {
   width: 100%;
@@ -178,6 +183,10 @@ background-blend-mode:lighten;
 }
 
 .title-size {
-  font-size: 45px;
+  /* font-size: 45px; */
 
+}
+
+.all-bg{
+  background-color: rgb(243, 251, 252);
 }

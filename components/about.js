@@ -1,25 +1,27 @@
 import Image from 'next/image'
 export default function Aboutus(){
   return (
-    <div className="bg-gray-1 mb-20 md:mb-40 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
+    <div className="bg-gray-1 mb- md:mb-40 px-4 py-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-">
       <div className="grid gap-5 row-gap-8 lg:grid-cols-2">
         <div className="flex flex-col justify-center">
           <div className="max-w-xl mb-6">
-            <div className='rounded-3xl -translate-y-20 bg '>
-              <video
+            <div className='rounded-3xl -translate-y-20 bg transition	'>
+              {/* <video
               type="video/mp4"
-              className="rounded-3xl videoanim w-full sm:block md:hidden rouded-2xl translate-x-20 title-anime ml-11"
+              className="rounded-3xl videoanim w-full sm:block md:hidden rouded-2xl translate-x-20 transition	title-anime ml-11"
               src={`/video/welcome.mp4`}
               muted
               autoPlay
               playsInline
-            ></video>
+            ></video> */}
             <div className='w-full h-full bg-green-200 opacit md:translate-y-20 relative'></div>
 
             </div>
-            <h2 className="mt-20 title-color w-full text-center col-span-full font-serif flex items-center -translate-y-20 max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
-                <div className='overflow-hidden block md:flex '>
-                    <div className='title-anime whitespace-pre-lin leading- w-full md:whitespace-nowrap title-size'>{'Welcome to \n Paradise Grow'}</div>
+            <h2 className="mt- title-color w-full text-center col-span-full font-serif flex items-center -translate-y-20 max-w-lg mb-6 font-sans text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl sm:leading-none">
+                <div className='overflow-hidden block md:flex'>
+                  <div className='title-anime'>
+                    <div className=' mb-10 transition whitespace-pre-lin leading-10 w-full md:whitespace-nowrap title-size'>{'Welcome to \n Paradise Grow'}</div>
+                    </div>
                 </div>
               <br className="hidden md:block" />
               {' '}

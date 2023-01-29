@@ -14,8 +14,7 @@ import {Merit} from '../components/merit-weed'
 import {useCallback} from 'react'
 import { useRef, useEffect, useState } from 'react'
 
-
-const inter = Inter({ subsets: ['latin'] })
+// const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   const onScroll = useCallback((event) => {
@@ -25,7 +24,7 @@ export default function Home() {
 
     for (let texti of textElem) {
       const textDistance = texti.getBoundingClientRect().top
-      if (window.innerHeight > textDistance) {
+      if (window.innerHeight > textDistance *1.3) {
         texti.classList.add('text-show')
       }
     }
@@ -48,7 +47,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/logo/transparent/1.png" />
       </Head>
-      <div className="bg-gray-100 w-full overflow-hidden">
+      <div className="all-bg w-full overflow-hidden">
 
 
         <Nav></Nav>
@@ -56,7 +55,7 @@ export default function Home() {
 
           <div className="h-40"></div>
           <Aboutus></Aboutus>
-          {/* <Merit></Merit> */}
+          <Merit></Merit>
 
           <Feature></Feature>
           <Items></Items>
