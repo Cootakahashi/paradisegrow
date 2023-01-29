@@ -26,13 +26,13 @@ export default function Home() {
 
     for (let texti of textElem) {
       const textDistance = texti.getBoundingClientRect().top
-      if (window.innerHeight > textDistance * 1.2) {
+      if (window.innerHeight > textDistance * 1.1) {
         texti.classList.add('text-show')
       }
     }
     for (let opi of opElem) {
       const opDistance = opi.getBoundingClientRect().top
-      if (window.innerHeight > opDistance *1.3) {
+      if (window.innerHeight > opDistance *1.25) {
         opi.classList.add('op-show')
       }
     }

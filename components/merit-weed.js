@@ -8,38 +8,47 @@ export function Merit(){
                 <h3 className="sm:text-center md:text-none text-xl font-sans italic">You going to be find new you</h3>
             </div>
             <div className="p-20 grid gap-4  md:grid-cols-4 grid-cols-2 -translate-y-20 md:translate-y-0">
-                <ul className="border text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300	">     
-                    <Link href="#product"><li className="">ENERGY</li></Link>
-                </ul>
+                <Link href="#product">
+                    <ul className="border text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300	">     
+                        <li className="">ENERGY</li>
+                    </ul>
+                </Link>
+                <Link href="#product">
                 <ul className="border text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
-                    <Link href="#product"><li>ANSIETY</li></Link>
-                </ul>
+                    <li>ANSIETY</li>
+                </ul></Link>
+                <Link href="#product">
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
-                    <Link href="#product"><li>SLEEP</li></Link>
+                    <li>SLEEP</li>
                 </ul>
+                </Link>
+                <Link href="#product">
+                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
+                    <li>AROUSAL</li>
+                </ul>
+                </Link>
+                <Link href="#product"> 
+                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
+                    <li>DEPRESSION</li>
+                </ul>
+                </Link>
+                <Link href="#product">
+                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
+                    <li>DIGESTION</li>
+                </ul>
+                </Link>
+                <Link href="#product">
+                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
+                    <li>BRAIN</li>
+                </ul>
+                </Link>
+                <Link href="#product">
                 <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
                     
-                    <Link href="#product"><li>AROUSAL</li></Link>
-                </ul>
-
-                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
-                    <Link href="#product"> <li>DEPRESSION</li></Link>
-                </ul>
-                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
-                    
-                    <Link href="#product"><li>DIGESTION</li></Link>
+                    <li>MOOD</li>
 
                 </ul>
-                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
-                    
-                    <Link href="#product"><li>BRAIN</li></Link>
-
-                </ul>
-                <ul className="border items-center text-center h-20 grid content-center border-gray-500 hover:bg-lime-700 duration-300">
-                    
-                    <Link href="#product"><li>MOOD</li></Link>
-
-                </ul>
+                </Link>
 
             </div>
             <div className="text-center mb-20 ">

@@ -42,12 +42,13 @@ export default function Product(){
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             Skunk 1
             </p>
-            <p className="text-gray-700">
+            <p className="text-gray-700 whitespace-pre-line">
+              {`
             Genetics Multiple Skunk Crosses (Afghani, Acapulco, Colombian)
             THC % THC 17% BALANCED
             Flavour/Aroma Earthy aromas and sour flavours
             Effects Energetic and Appetite increasing
-            Medical Usage Stress and Anxiety reduction
+            Medical Usage Stress and Anxiety reduction`}
             </p>
           </div>
           <div>
@@ -61,13 +62,13 @@ export default function Product(){
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             OG Kush
             </p>
-            <p className="text-gray-700 ">
-            Hybrid
+            <p className="text-gray-700 whitespace-pre-line">{`Hybrid
             Lemon Thai X Hindu Kush
             THC 18% BALANCED
             Spicy, skunky
             Relaxation
-            Stress Reduction
+            Stress Reduction`}
+
             </p>
           </div>
           <div>
@@ -81,13 +82,13 @@ export default function Product(){
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             Banana Blaze
             </p>
-            <p className="text-gray-700">
-            Indica Dominant Hybrid
+            <p className="text-gray-700 whitespace-pre-line">{`            Indica Dominant Hybrid
             Dutch Passion genetics Old School Banana X Afghani Kush
             THC 15% LOW
             Sweet Fruit aromas and taste
             Body relaxation
-            Switching off the mind
+            Switching off the mind`}
+
             </p>
           </div>
           <div className='col-span-full'>
@@ -104,13 +105,13 @@ export default function Product(){
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             Amnesia Haze
             </p>
-            <p className="text-gray-700">
-            Sativa
+            <p className="text-gray-700 whitespace-pre-line">{`            Sativa
 South Asian Landrace X Jamaican Landrace
 THC 19% HEAVY
 Earthy aromas and lemon flavours
 Uplifting and energetic buzz
-Helps with stress relief and motivation
+Helps with stress relief and motivation`}
+
             </p>
           </div>
           <div>
@@ -124,12 +125,12 @@ Helps with stress relief and motivation
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             Gorilla Glu
             </p>
-            <p className="text-gray-700">
-            Hybrid
+            <p className="text-gray-700 whitespace-pre-line">{`            Hybrid
 Chem’s Sister X Chocolate Diesel
 THC 20% POTENT
 Earthy, sour aromas
-Helps with stress and pain alleviation
+Helps with stress and pain alleviation`}
+
             </p>
           </div>
           <div>
@@ -143,13 +144,13 @@ Helps with stress and pain alleviation
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             Gelato
             </p>
-            <p className="text-gray-700">
-            Hybrid
+            <p className="text-gray-700 whitespace-pre-line">{`Hybrid
 Sunset Sherbert X Thin Mint Girl Scout Cookies
 THC 17% BALANCED
 Sweet aroma and a fruity flavour
 Euphoria, relaxation
-Relief of pain, fatigue and Insomnia
+Relief of pain, fatigue and Insomnia`}
+            
             </p>
           </div>
           <div className='col-span-full'>
@@ -167,13 +168,13 @@ Relief of pain, fatigue and Insomnia
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             White Widow
             </p>
-            <p className="text-gray-700">
-            Hybrid
+            <p className="text-gray-700 whitespace-pre-line">{`Hybrid
 Brazilian Sativa Landrace X Indian Indica
 THC 15% LOW
 Woody aromas and an earthy flavour
 Energetic
-Motivates and powers creativity
+Motivates and powers creativity`}
+            
             </p>
           </div>
           <div>
@@ -187,13 +188,13 @@ Motivates and powers creativity
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
             Critical White
             </p>
-            <p className="text-gray-700">
-            Hybrid
-White Widow X Critical Mass
-THC 21% HEAVY
-Sweet and woody
-Uplifting, Euphoric
-Relaxation and motivating
+            <p className="text-gray-700 whitespace-pre-line">{`Hybrid
+      White Widow X Critical Mass
+      THC 21% HEAVY
+      Sweet and woody
+      Uplifting, Euphoric
+      Relaxation and motivating`}
+            
             </p>
           </div>
           <div>
@@ -207,9 +208,13 @@ Relaxation and motivating
             <p className="mb-2 text-xl font-bold leading-none sm:text-2xl">
               Organically grow
             </p>
-            <p className="text-gray-700">
-              Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-              accusantium.
+            <p className="text-gray-700 whitespace-pre-line">{` Hybrid
+White Widow X Critical Mass
+THC 21% HEAVY
+Sweet and woody
+Uplifting, Euphoric
+Relaxation and motivating`}
+ 
             </p>
           </div>
         </div>

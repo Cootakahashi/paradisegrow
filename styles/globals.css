@@ -182,13 +182,14 @@ background-blend-mode:lighten;
   -webkit-text-fill-color: transparent;
 }
 
-.title-size {
-  /* font-size: 45px; */
+.title-size1 {
+  font-size: 45px;
 
 }
 
 .all-bg{
   background-color: rgb(243, 251, 252);
+
 }
 
 .navres {
