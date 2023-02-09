@@ -4,23 +4,30 @@ import styles from '../styles/nav.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
 import NavRes from './navRes'
+
 export default function Nav() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     let pageYoffset = 0
 
     const onScroll = useCallback(event => {
         const navitem = window.document.querySelector('.nav-item')
-
-
         if (pageYoffset > pageYOffset){
-            navitem.classList.add('show')
+            try {
+              navitem.classList.add('show')
+            } catch {
+              console.log("add")
+  
+            }
         }
         else {
+          try {
             navitem.classList.remove('show')
+          } catch {
+            console.log("HI")
+
+          }
         }
         pageYoffset = pageYOffset
-
-
     }, []);
 
 
@@ -61,19 +68,7 @@ export default function Nav() {
             <div className="hidden md:flex text-right ">
             <ul className="flex items-center ml-80 hidde space-x-12 lg:flex border-b">
               <li>
-                <Link href={"/shop"} passHref legacyBehavior>
-                <a
-                  href="/"
-                  aria-label="Our product"
-                  title="Our product"
-                  className="bg-lime-600 font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
-                >
-                  Shopnow
-                </a>
-                </Link>
-              </li>
-              <li>
-              <Link href="#aboutus" passHref legacyBehavior>
+              <Link href="ourstory" passHref legacyBehavior>
               <a
                   href="/"
                   aria-label="Our product"
@@ -87,7 +82,7 @@ export default function Nav() {
 
               </li>
               <li>
-              <Link href="#product" passHref legacyBehavior> 
+              <Link href="/products" passHref legacyBehavior> 
               <a
                   href="/"
                   aria-label="Product pricing"
@@ -101,21 +96,21 @@ export default function Nav() {
 
               </li>
               <li>
-              <Link href="#science" passHref legacyBehavior>
+              <Link href="/science" passHref legacyBehavior>
               <a
                   href="/"
                   aria-label="About us"
                   title="About us"
                   className="whitespace-nowrap font-medium tracking-wide text-gray-700 transition-colors duration-200 hover:text-deep-purple-accent-400"
                 >
-                  Science of medical cannabis
+                  Science of cannabis
                 </a>
                  </Link>
 
 
               </li>
               <li>
-              <Link href="#events" passHref legacyBehavior>
+              <Link href="/event" passHref legacyBehavior>
               <a
                   href="/"
                   aria-label="Product pricing"
