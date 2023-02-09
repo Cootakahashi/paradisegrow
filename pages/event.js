@@ -17,7 +17,7 @@ export default function Event(){
                         />
                     </div>
                     <h1 className="text-center text-bold text-4xl pt-20 font-serif">Event Infomation</h1>
-                    <p className='p-20 px-40'>Networking Opportunities: Attending events can provide an opportunity to meet new people and build professional relationships. This can lead to new business opportunities, career growth, and personal connections.
+                    <p className='p-0 px-10 md:p-20 md:px-40'>Networking Opportunities: Attending events can provide an opportunity to meet new people and build professional relationships. This can lead to new business opportunities, career growth, and personal connections.
 
                         Learning and Professional Development: Many events offer educational sessions and workshops that can help you stay up-to-date on industry trends and improve your skills.
 
